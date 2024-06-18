@@ -3,7 +3,8 @@
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
-    -- fonte-principal: "inter";
+    --fonte-principal: "inter";
+    --botao-azul-efeito:#3c92fa;
 }
 
 body{
@@ -19,10 +20,14 @@ margin: 0;
 padding: 0;
 }
 
+
+
 .principal{
     background-image: url("img/backgroud.png");
-    background-repeat: no-repeat;
+    background-repeat: no-repet;
     background-size: contein;
+    align-itens:center;
+    text-align: center;
 }
 
 .container{
@@ -30,6 +35,7 @@ padding: 0;
     display: grid;
     grid-template-columns: 50% 50%; 
 }
+
 .container__botao{
     background-color:var(--botao-azul);
     border-radius: 5px;
@@ -37,6 +43,7 @@ padding: 0;
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom:1em;
 }
 
 .button_secundario {
