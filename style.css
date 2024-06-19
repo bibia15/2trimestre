@@ -8,11 +8,11 @@
 }
 
 body{
-    background-color: var(--cor-de-fundo)
-    color: var(--branco-principal)
-    fonte-family: var(--fonte-principal)
-    fonte-size: 16px;
-    fonte-weigth: 400;
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 *{
@@ -26,7 +26,7 @@ padding: 0;
     background-image: url("img/backgroud.png");
     background-repeat: no-repet;
     background-size: contein;
-    align-itens:center;
+    align-items:center;
     text-align: center;
 }
 
@@ -53,10 +53,11 @@ padding: 0;
 
 
  .container--aviso{
-     fonte-size: 12px;
-     color-var: cinza secudario;
+     font-size: 12px;
+     color: var cinza secudario;
  }
 
-. container--titulo{
-    fonte-size:28px;
-    fonte-weight:700;
+.container--titulo{
+    font-size:28px;
+    font-weight:700;
+}
